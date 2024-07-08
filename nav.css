@@ -1,0 +1,30 @@
+nav>ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav li{
+    list-style: none;
+    margin-right: 70px;
+    padding: 20px ;
+    font-size: 40px;
+    
+}
+nav li:hover{
+    background-color: blue;
+    /* text-decoration: aqua; */
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+/* nested menu styles */
+nav li .dd{
+display: none;
+position: absolute;
+background-color: lightcoral;
+padding-left: 10px;
+}
+nav li:hover .dd{
+    display: block;
+}
